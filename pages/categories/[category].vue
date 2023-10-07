@@ -33,7 +33,6 @@ const formatedData = computed(() => {
     }
   })
 })
-
 useHead({
   title: category.value,
   meta: [

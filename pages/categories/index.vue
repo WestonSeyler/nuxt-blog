@@ -18,6 +18,7 @@ const topics = [
   'namecheap',
 ]
 
+
 useHead({
   title: 'Categories',
   meta: [
