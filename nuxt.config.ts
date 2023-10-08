@@ -15,13 +15,13 @@ export default defineNuxtConfig({
   sitemap: {
     strictNuxtContentPaths: true,
   },
-  site: {
-    url: 'https://blog.nurriyad.xyz',
-    identity: {
-      type: 'Person',
-    },
-    twitter: '@qdnvubp',
-  },
+  // site: {
+  //   url: 'https://blog.nurriyad.xyz',
+  //   identity: {
+  //     type: 'Organization',
+  //   },
+  //   twitter: '@qdnvubp',
+  // },
 
   typescript: {
     strict: true,

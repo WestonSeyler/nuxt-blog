@@ -4,6 +4,8 @@ const { data } = await useAsyncData('trending-post', () =>
   queryContent('/blogs').limit(3).sort({ _id: 1 }).find(),
 )
 
+
+
 const formatedData = computed(() => {
   return data.value?.map((articles) => {
     return {
